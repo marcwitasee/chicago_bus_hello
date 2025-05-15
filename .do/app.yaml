@@ -1,10 +1,10 @@
-name: cta-bus-tracker
+name: chicago_bus_hello
 services:
 - name: api
   github:
     branch: main
     deploy_on_push: true
-    repo: your-github-username/cta_bus_tracker
+    repo: marcwitasee/chicago_bus_hello
   source_dir: backend
   build_command: pip install -r requirements.txt
   run_command: gunicorn app:app --bind 0.0.0.0:8080
