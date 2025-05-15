@@ -4,7 +4,7 @@
 const CONFIG = {
     // API Settings
     api: {
-        baseUrl: 'http://localhost:8080/api',
+        baseUrl: 'https://chicago-bus-hello-3aao3.ondigitalocean.app/api',
         refreshInterval: 30000, // 30 seconds
     },
     
