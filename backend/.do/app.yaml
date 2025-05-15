@@ -4,7 +4,7 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: your-github-username/chicago_bus_hello
+    repo: marcwitasee/chicago_bus_hello
   build_command: pip install -r requirements.txt
   run_command: gunicorn app:app --bind 0.0.0.0:8080
   http_port: 8080
