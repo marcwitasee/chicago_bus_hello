@@ -12,9 +12,9 @@ const CONFIG = {
     map: {
         center: [41.8781, -87.6298], // Chicago coordinates
         zoom: 13,
-        // Using a cleaner, less cluttered map style from Stamen Design
-        tileLayer: 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',
-        attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+        // Using Positron style - a light, minimalist map style
+        tileLayer: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
         stopsVisibleZoom: 14, // Minimum zoom level to show stops
     },
     
